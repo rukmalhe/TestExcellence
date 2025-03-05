@@ -1,5 +1,6 @@
-# TestNG Framework for RESTful Booker
-This repository contains a TestNG-based framework to test the restful-booker.herokuapp.com API.
+# TestExcellence is TestNg Framework for software testing.
+
+This repository is a TestNG-based framework for testing REST API.
 
 ## Programming Language
 * Java 23
