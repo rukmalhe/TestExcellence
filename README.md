@@ -9,13 +9,13 @@ This repository is a TestNG-based framework for testing REST API.
 * Maven
 
 ## Project Structure
-├── src
-│ ├── main
-│ │ └── java (reserved for project src code)
-│ └── test
-│ └── java (api pkg, AppBuilder pkg, pojo pkg, utils pkg, test pkg)
-└── resources (config.properties, data.properties, log4j)
-└── pom.xml
+├── src<br>
+│ ├── main<br>
+│ │ └── java (reserved for the project src code)<br>
+│ └── test<br>
+│ └── java (api pkg, app builder pkg, pojo pkg, utils pkg, test pkg)<br>
+└── resources (config.properties, data.properties, log4j)<br>
+└── pom.xml<br>
 
 ## Getting Started
 * Setup Environment with java, Maven and Git
