@@ -8,12 +8,22 @@ This repository is a TestNG-based framework for testing REST API.
 ## Build Tool
 * Maven
 
+## Project Structure
+├── src
+│ ├── main
+│ │ └── java (reserved for project src code)
+│ └── test
+│ └── java (api pkg, AppBuilder pkg, pojo pkg, utils pkg, test pkg)
+└── resources (config.properties, data.properties, log4j)
+└── pom.xml
+
 ## Getting Started
 * Setup Environment with java, Maven and Git
 * Navigate to directory: cd //restful-booker.herokuapp.com
+* Config.properties for changing the environments variables such as url, username, passwords etc.
 * Run Test: mvn clean test
 * (Optional) Change the test suite environment by passing system properties, for example:
-mvn clean test -Denv=qa
+mvn clean test -Denv=staging
 
 ## Dependencies
 The following dependencies and plugins are used (specified in the Maven POM):
