@@ -33,7 +33,7 @@ public class ConfigLoader {
         String env = System.getProperty("env", properties.getProperty("environment"));
         //Default to the property file, but allow an override via the command line.
 
-        if (env !=null & env.equalsIgnoreCase("stating") ) { return properties.getProperty("baseUrlStage");}
+        if (env !=null & env.equalsIgnoreCase("staging") ) { return properties.getProperty("baseUrlStage");}
         else if (env !=null & env.equalsIgnoreCase("dev") ) { return properties.getProperty("baseUrlDev");}
         else if (env !=null & env.equalsIgnoreCase("qa") ) { return properties.getProperty("baseUrlQA");}
         else throw new RuntimeException("No value found for baseUrl");
